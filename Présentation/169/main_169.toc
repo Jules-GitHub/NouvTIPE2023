@@ -1,0 +1,6 @@
+\babel@toc {french}{}\relax 
+\beamer@sectionintoc {1}{Sujet}{1}{0}{1}
+\beamer@sectionintoc {2}{Problématiques}{2}{0}{2}
+\beamer@sectionintoc {3}{Enjeux}{3}{0}{3}
+\beamer@sectionintoc {4}{Approches (1)}{4}{0}{4}
+\beamer@sectionintoc {5}{Approches (2)}{5}{0}{5}

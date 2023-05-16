@@ -1,0 +1,10 @@
+\frametitle{\textbf {Ajout des attracteurs}}
+
+    Objectif des attracteurs :
+    \begin{itemize}
+        \item Représenter les différents besoins
+    \end{itemize}
+
+    \lstset{style=styleC}
+    \lstinputlisting[firstline=10, lastline=15]{../../Projet/attracteur.c}
+

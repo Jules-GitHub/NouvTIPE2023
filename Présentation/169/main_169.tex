@@ -1,0 +1,123 @@
+\documentclass[8pt, aspectratio=169]{beamer}
+\input{template}
+\input{progressbar}
+\input{sidebar}
+
+\useoutertheme[left, height=0pt, width=2.2cm]{sidebar}
+\setbeamercolor{palette sidebar primary}{fg=gray}
+\setbeamercolor{palette sidebar secondary}{fg=gray}
+\setbeamerfont{section in sidebar}{size=\small}
+\setbeamerfont{subsection in sidebar}{size=\small}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{theme_LMPS_169_title.png}}
+
+\title{\textcolor{white}{\textbf{Réduction des émissions de carbone des flux logistiques}}\vspace{30pt}}
+\author{\textbf{Jules Bioulac}}
+
+\date{MP2I}
+
+\begin{document}
+\setbeamertemplate{sidebar left}{}
+\section{Sujet}
+\begin{frame}
+\vspace{0pt}
+\makeatletter
+      \hspace*{-35pt}
+      \begin{minipage}[c][\textheight]{\textwidth}
+        \maketitle
+      \end{minipage}
+\setbeamertemplate{footline}{} 
+\end{frame}
+
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{theme_LMPS_169_sidebar.png}}
+\setbeamertemplate{sidebar left}{}
+\input{sidebar}
+\section{Problématiques}
+\begin{frame}{\insertsubsection}{Problématiques}
+\makeatletter
+     % \hspace*{-35pt}
+      \begin{minipage}[c][\textheight]{\textwidth}
+        \begin{large}
+            $\longrightarrow$ Comment organiser les flux logistiques qui ne cherchent pas à se coordonner ?\\
+            \newline
+            $\longrightarrow$ Comment réduire les émissions de carbone  de la chaîne d'approvisionnement ?
+        \end{large}
+      \end{minipage}
+\end{frame}
+
+
+%\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{169/theme_LMPS_169.png}}
+\section{Enjeux}
+\begin{frame}{Enjeux}
+\makeatletter
+      %\hspace*{-35pt}
+      \begin{minipage}[c][\textheight]{\textwidth}
+      \begin{itemize}
+        \item Dans le monde contemporain, le \textbf{réchauffement climatique} est une préoccupation importante pour tout le monde.
+        \saut
+        
+        \item Il est donc important à chaque échelle de trouver des actions qui permettent de lutter contre cela.
+        \saut
+        
+        \item On remarque que la plupart des transports tendent à \textbf{réduire leur traffic} mais pas les livraisons de marchandises qui semblent incompressibles. En effet, comment ne pas transporter physiquement les objets nécessaires à notre quotidien ?
+        \saut
+        
+        \item Nous pourrons voir que supprimer le transport est impossible mais qu'une \textbf{refonte du système} actuel permettrait de réduire drastiquement la quantité de flux.
+        \saut
+        
+        \item Les enjeux de ce projet sont donc d'apporter des éléments de réponse à ces questions.
+        \end{itemize}
+      \end{minipage}
+\end{frame}
+
+
+%\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{169/theme_LMPS_169.png}}
+\section{Approches (1)}
+\begin{frame}{Approches (1)}
+\makeatletter
+      %\hspace*{-35pt}
+      \begin{minipage}[c][\textheight]{\textwidth}
+        \begin{itemize}
+            \item En prenant l'exemple du \textbf{périphérique} de Paris, on remarque qu'il offre un accés privilégié à l'ensemble de la ville.
+            \saut
+            
+            \item Dans une première approche du problème, on pourrait mettre en place des plateformes de \textbf{centralisations} des flux aux abords de Paris et d'utiliser le périphérique pour diminuer le traffic à l'intérieur de la capitale.
+            \saut
+            
+            \item Cette centralisation permet donc une rédution des \textbf{flux considérés}.
+            \saut
+        \end{itemize}
+        \begin{center}
+            \includegraphics[height=3cm, width=3.8cm, keepaspectratio=true]{plan-périphérique-paris.jpg}
+        \end{center}
+      \end{minipage}
+\end{frame}
+
+
+%\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{169/theme_LMPS_169.png}}
+\section{Approches (2)}
+\begin{frame}{Approches (2)}
+\makeatletter
+      %\hspace*{-35pt}
+      \begin{minipage}[c][\textheight]{\textwidth}
+        \begin{itemize}
+            \item Comme dit précédemment, les flux qui circulent aujourd'hui sur notre territoire \textbf{ne sont pas coordonnés} entre eux.
+            \saut
+            
+            \item En effet, chaque entreprise ne s'occupe que de son propre réseau (ce qui est cohérent dans une logique de compétitivité).
+            \saut
+            
+            \item Une autre approche serait donc de proposer aux différentres entreprises du secteur une plateforme qui leur permettrait de se prêter \textbf{mutuellement} des espaces dans les camions des autres, à l'image d'un BlaBlaCar qui permet de proposer une place dans sa voiture.
+            \saut
+            
+            \item Cela permettrait donc de réduire des coûts en supprimant des trajets inutiles et par conséquent de réduire les émissions de carbone de ces entreprises.
+        \end{itemize}
+        \begin{center}
+            \includegraphics[height=3cm, width=3.8cm, keepaspectratio=true]{blablacar.png}
+        \end{center}
+      \end{minipage}
+\end{frame}
+
+
+\end{document}

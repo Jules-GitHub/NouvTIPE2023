@@ -1,0 +1,65 @@
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{natbib}
+\usetikzlibrary{calc}
+\usetheme{default}
+
+
+
+\usepackage[french]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{amsfonts}
+\usepackage[justification=centering]{caption}
+\usepackage{xcolor}
+\DeclareCaptionFormat{sanslabel}{#3}
+\usepackage{appendix}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{picture}
+
+
+\setbeamersize{
+  text margin left = 1 cm, % normalement c'est 1 cm
+  text margin right = 1 cm % normalement c'est 1 cm
+}
+
+
+\setbeamertemplate{bibliography entry article}{}
+\setbeamertemplate{bibliography entry title}{}
+\setbeamertemplate{bibliography entry location}{}
+\setbeamertemplate{bibliography entry note}{}
+\setbeamertemplate{bibliography item}[text]
+
+
+\definecolor{bleu_saphir}{RGB}{31,56,85} %RAL 5003 Bleu saphir
+
+\setbeamerfont{footline}{size=\Large}
+\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded]
+\setbeamercolor{block title}{bg=bleu_saphir!50,fg=bleu_saphir}
+\setbeamercolor{block body}{bg=bleu_saphir!30,fg=bleu_saphir}
+\setbeamercolor{frametitle}{fg=bleu_saphir}
+\usecolortheme[named=bleu_saphir]{structure}
+
+
+
+
+
+\addto\captionsfrench{%
+  \renewcommand{\figurename}[1]
+        {{\textit{#1}}}}
+\addto\captionsfrench{%
+  \renewcommand{\subfigurename}[1]
+        {{\textit{#1}}}}
+\newcommand{\saut}{\vspace{10pt}}

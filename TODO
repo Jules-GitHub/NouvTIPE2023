@@ -1,0 +1,9 @@
+- Paramètre alpha progressif dnas descente de gradient
+- Programmer fonction n->min(n points)
+- Réorganiser le code
+- Essayer de faire des c bindings
+
+- Créer heuristique avec points qui ont un certain poids
+
+- Multiplier par moyenne pondérée des coeff
+- Précalculer coeff multiplicateur des points

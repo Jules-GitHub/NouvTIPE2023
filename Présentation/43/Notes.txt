@@ -1,0 +1,30 @@
+Ce qu'il faut afficher dans le transparent pour le TIPE : 
+
+- 15 slides
+    - (O) Présentation
+    - (O) Mise en situation
+        - Transport = plus grosse source de pollution en villes/France
+        - Réduire cette source par la suppression des trajets "d'appoints" est qqch de faisable
+    - (O) Problématique
+        - Comment répartir les points de retraits de colis au sein d'une ville ?
+    - (O) Sommaire
+    - (O) Formalisation du problème
+        - Fonction objectif
+            - Différentes étapes de la construction de celle-ci
+    - (O) Premiers tests : Pas d'attracteurs
+        - Utilisation du C pour plus de puissance -> Revenir sur complexité algorithme (Las Vegas)
+        - Descente de gradient
+        - Essaims ?
+        - À quel point je montre code ?
+    - (O) Ajout des attracteurs
+        - Ce qu'ils représentent -> Pas les mêmes besoins
+    - (O) Comment choisir les attracteurs ?
+    - (O) Calcul des coefficients
+        - Affichage 3D
+    - Résultats avec attracteurs
+    - Pistes d'amélioration
+        - Pas assez de puissance pour calculer à l'échelle de la ville de Paris
+
+
+TODO :
+- Code propre pour impression
