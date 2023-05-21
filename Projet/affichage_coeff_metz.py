@@ -51,12 +51,12 @@ def affichage(coeff, zone):
     print(i, j)
 
 def combine(revenu, densite):
-    return revenu/100
+    return revenu/1000 * densite/100
 
 def importe_donnees():
-    posFichier = pd.read_csv("../positions.csv", sep=";")
-    revenuFichier = pd.read_csv("../revenus.csv", sep=";")
-    densiteFichier = pd.read_csv("../densite.csv", sep=";")
+    posFichier = pd.read_csv("../Metz/positions.csv", sep=";")
+    revenuFichier = pd.read_csv("../Metz/revenus.csv", sep=";")
+    densiteFichier = pd.read_csv("../Metz/densite.csv", sep=";")
     attracteurs = [(posFichier["X"][i], posFichier["Y"][i], combine(revenuFichier["MONTANT"][i], densiteFichier["DENSITE"][i])) for i in range(len(posFichier))]
     return attracteurs, len(attracteurs)
 
